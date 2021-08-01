@@ -73,7 +73,7 @@ def interpret(path):
             print(chr(datalist[data_pointer]), end='')
 
         elif instruction_list[instruction_pointer] == ",":
-            datalist[data_pointer] = ord(input("somehthih")[0])
+            datalist[data_pointer] = ord(input()[0])
 
         instruction_pointer += 1
 
