@@ -1,4 +1,4 @@
-# Brainf*ck interpreter
+# Brainf*ck Interpreter
 
 ### An interpreter for the Brainf*ck language written in python.
 
