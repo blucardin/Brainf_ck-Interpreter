@@ -1,5 +1,5 @@
 
-def main():
+def interpret(path):
     datalist = [0]
     instruction_list = []
 
@@ -11,7 +11,7 @@ def main():
 
     operators = ["<", ">", "+", "-", "[", "]", ".", ","]
 
-    file = open(input("File: "), "r")
+    file = open(path, "r")
 
     for line in file:
         for character in line:
@@ -79,4 +79,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    interpret(input("File: "))
